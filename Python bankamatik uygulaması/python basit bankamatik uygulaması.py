@@ -8,7 +8,7 @@ print(
     '''
 )
 
-bakiye = 1000
+bakiye = int(input('Girmek istediğiniz bakiyeyi giriniz:'))
 while True:
     islem = input('Bir işlem seçiniz:')
     if islem == '0':
